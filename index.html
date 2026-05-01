@@ -3,141 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Md. Al Mamud - Full Stack Developer & ML Researcher Portfolio">
-    <meta name="keywords" content="developer, machine learning, web development, portfolio, AI">
-    <title>Md. Al Mamud | Full Stack Developer & ML Researcher</title>
+    <meta name="description" content="Md. Al Mamud - Full Stack Developer & ML Researcher">
+    <meta name="keywords" content="developer, machine learning, researcher, portfolio">
+    <title>Md. Al Mamud | Developer & Researcher</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home"><i class="fas fa-code"></i> AL MAMUD</a>
+            <div class="logo">
+                <a href="#home">AM</a>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="nav-right">
-                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
-                    <i class="fas fa-moon"></i>
-                </button>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
+            <button class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-image">
-                <div class="profile-pic-wrapper">
-                    <img src="assets/img/profile.jpg" alt="Md. Al Mamud" class="profile-pic">
-                    <div class="profile-border"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-subtitle">Hi, I'm</p>
+                    <h1 class="hero-title">Md. Al Mamud</h1>
+                    <p class="hero-description">
+                        Full Stack Developer & Machine Learning Researcher crafting intelligent solutions 
+                        that bridge technology and innovation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Start a Project</a>
+                        <a href="assets/cv/Md_Al_Mamud_CV.pdf" class="btn btn-secondary" download>Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/img/profile.jpg" alt="Md. Al Mamud">
                 </div>
             </div>
-            <div class="hero-text">
-                <h1 class="hero-title">MD. AL MAMUD</h1>
-                <p class="subtitle">Full-Stack Developer | ML Enthusiast | Researcher</p>
-                <p class="tagline">"Transforming Ideas into Intelligent Solutions"</p>
-                <p class="intro">Computer Science graduate with expertise in web development, machine learning, and system design. Passionate about building scalable applications and contributing to cutting-edge research.</p>
-                
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <h3 class="stat-number" data-target="4">0</h3>
-                        <p class="stat-label">Projects</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3 class="stat-number" data-target="3">0</h3>
-                        <p class="stat-label">Awards</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3 class="stat-number" data-target="6">0</h3>
-                        <p class="stat-label">Years Teaching</p>
-                    </div>
-                </div>
-                
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i> Get In Touch
-                    </a>
-                    <a href="assets/cv/Md_Al_Mamud_CV.pdf" class="btn btn-secondary" download>
-                        <i class="fas fa-download"></i> Download CV
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/almamud740" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/md-al-mamud-168650361" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="mailto:almamud.tech@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="tel:+8801755575606" title="Phone"><i class="fas fa-phone"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span></span>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">01</span>
-                About Me
-            </h2>
-            <div class="section-divider"></div>
+            <div class="section-header">
+                <h2>About</h2>
+                <div class="underline"></div>
+            </div>
             
-            <div class="about-content">
+            <div class="about-grid">
                 <div class="about-text">
-                    <p class="about-intro">Results-driven Computer Science professional with a track record in full-stack web development, machine learning, and system design.</p>
+                    <p>
+                        I'm a Computer Science student at Green University of Bangladesh with a passion for building 
+                        scalable applications and conducting cutting-edge research in machine learning and artificial intelligence.
+                    </p>
+                    <p>
+                        With <strong>6+ years of teaching experience</strong> and expertise in full-stack development, 
+                        I bring both technical excellence and clear communication to every project.
+                    </p>
+                    <p>
+                        Currently focused on <strong>Bangla Fake News Detection</strong> using deep learning and explainable AI. 
+                        I'm driven by the challenge of solving complex problems and delivering impactful solutions.
+                    </p>
                     
-                    <h3>What I Bring:</h3>
-                    <ul class="about-list">
-                        <li><i class="fas fa-check-circle"></i> Scalable, production-ready applications</li>
-                        <li><i class="fas fa-check-circle"></i> Deep learning frameworks expertise</li>
-                        <li><i class="fas fa-check-circle"></i> System architecture optimization</li>
-                        <li><i class="fas fa-check-circle"></i> Clear technical communication</li>
-                        <li><i class="fas fa-check-circle"></i> Research & innovation mindset</li>
-                    </ul>
-
-                    <h3>Current Focus:</h3>
-                    <p>Pursuing undergraduate thesis on <strong>"Bangla Fake News Detection"</strong> using semantic, stylometric, and graph neural networks with focus on explainable AI.</p>
-
-                    <h3>Open To:</h3>
-                    <div class="open-to-badges">
-                        <span class="badge">Full-Stack Development</span>
-                        <span class="badge">ML Engineering</span>
-                        <span class="badge">Research Roles</span>
-                        <span class="badge">Academic Positions</span>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat">
+                            <h3>6+</h3>
+                            <p>Years Teaching</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3</h3>
+                            <p>Awards</p>
+                        </div>
                     </div>
                 </div>
                 
                 <div class="about-highlights">
-                    <div class="highlight-card">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h4>Education</h4>
-                        <p>BS Computer Science, Green University</p>
-                    </div>
-                    <div class="highlight-card">
+                    <div class="highlight">
                         <i class="fas fa-code"></i>
-                        <h4>Skills</h4>
-                        <p>8+ Languages & Frameworks</p>
+                        <h4>Full-Stack Development</h4>
+                        <p>PHP, Python, C++, JavaScript</p>
                     </div>
-                    <div class="highlight-card">
-                        <i class="fas fa-award"></i>
-                        <h4>Recognition</h4>
-                        <p>3x Dean's Award Winner</p>
+                    <div class="highlight">
+                        <i class="fas fa-brain"></i>
+                        <h4>Machine Learning</h4>
+                        <p>PyTorch, TensorFlow, NLP</p>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-database"></i>
+                        <h4>System Design</h4>
+                        <p>Architecture, Optimization</p>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Research</h4>
+                        <p>AI, NLP, Explainability</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Work</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="projects">
+                <!-- Project 1 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="assets/img/project1.jpg" alt="Bangla Fake News Detection">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Research</span>
+                        <h3>Bangla Fake News Detection</h3>
+                        <p>
+                            Deep learning framework using hierarchical attention fusion, Graph Neural Networks, 
+                            and BERT embeddings for detecting fake news in Bangla with explainable AI.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyTorch</span>
+                            <span>Transformers</span>
+                            <span>GNN</span>
+                        </div>
+                        <a href="https://github.com/almamud740" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project">
+                    <div class="project-content">
+                        <span class="project-tag">Development</span>
+                        <h3>FlexFlow Platform</h3>
+                        <p>
+                            Full-stack freelancer marketplace connecting professionals with employers. 
+                            Features gamified performance system, smart job matching, and real-time notifications.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <a href="https://github.com/almamud740" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/img/project2.jpg" alt="FlexFlow Platform">
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="assets/img/project3.jpg" alt="System Design">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">System Design</span>
+                        <h3>CPU Scheduler & Data Communication</h3>
+                        <p>
+                            Comparative analysis of CPU scheduling algorithms and network protocol implementation. 
+                            Performance metrics and optimization techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>Algorithms</span>
+                            <span>Networking</span>
+                        </div>
+                        <a href="https://github.com/almamud740" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -147,310 +200,55 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">02</span>
-                Skills & Expertise
-            </h2>
-            <div class="section-divider"></div>
-            
-            <div class="skills-wrapper">
-                <!-- Technical Skills -->
-                <div class="skills-column">
-                    <h3 class="skills-category">Technical Skills</h3>
-                    
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Python & ML</span>
-                            <span class="skill-level">95%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 95%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">PHP & Web Dev</span>
-                            <span class="skill-level">90%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">C++ & Algorithms</span>
-                            <span class="skill-level">85%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Database & SQL</span>
-                            <span class="skill-level">88%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 88%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Frontend (HTML/CSS/JS)</span>
-                            <span class="skill-level">92%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 92%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Soft Skills -->
-                <div class="skills-column">
-                    <h3 class="skills-category">Professional Skills</h3>
-                    
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Problem Solving</span>
-                            <span class="skill-level">98%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 98%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Communication</span>
-                            <span class="skill-level">94%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 94%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Leadership</span>
-                            <span class="skill-level">87%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 87%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Research & Analysis</span>
-                            <span class="skill-level">93%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 93%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-item">
-                        <div class="skill-header">
-                            <span class="skill-name">Team Collaboration</span>
-                            <span class="skill-level">91%</span>
-                        </div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 91%"></div>
-                        </div>
-                    </div>
-                </div>
+            <div class="section-header">
+                <h2>Skills & Expertise</h2>
+                <div class="underline"></div>
             </div>
 
-            <!-- Technology Tags -->
-            <div class="tech-grid">
-                <div class="tech-category">
+            <div class="skills-grid">
+                <div class="skill-category">
                     <h4>Languages</h4>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">PHP</span>
-                        <span class="tech-tag">C++</span>
-                        <span class="tech-tag">Java</span>
-                        <span class="tech-tag">JavaScript</span>
+                    <div class="skill-list">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">C++</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">SQL</span>
                     </div>
                 </div>
-                <div class="tech-category">
-                    <h4>Frameworks & Libraries</h4>
-                    <div class="tech-tags">
-                        <span class="tech-tag">PyTorch</span>
-                        <span class="tech-tag">TensorFlow</span>
-                        <span class="tech-tag">BERT</span>
-                        <span class="tech-tag">GNN</span>
-                        <span class="tech-tag">Flask</span>
+
+                <div class="skill-category">
+                    <h4>Machine Learning</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">PyTorch</span>
+                        <span class="skill-badge">TensorFlow</span>
+                        <span class="skill-badge">BERT</span>
+                        <span class="skill-badge">GNN</span>
+                        <span class="skill-badge">NLP</span>
+                        <span class="skill-badge">Deep Learning</span>
                     </div>
                 </div>
-                <div class="tech-category">
+
+                <div class="skill-category">
+                    <h4>Web Development</h4>
+                    <div class="skill-list">
+                        <span class="skill-badge">Full-Stack</span>
+                        <span class="skill-badge">REST APIs</span>
+                        <span class="skill-badge">MySQL</span>
+                        <span class="skill-badge">HTML/CSS</span>
+                        <span class="skill-badge">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
                     <h4>Tools & Platforms</h4>
-                    <div class="tech-tags">
-                        <span class="tech-tag">Git</span>
-                        <span class="tech-tag">GitHub</span>
-                        <span class="tech-tag">VS Code</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">Docker</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">03</span>
-                Featured Projects
-            </h2>
-            <div class="section-divider"></div>
-            
-            <div class="projects-grid">
-                <!-- Project 1: Thesis -->
-                <div class="project-card featured">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-microscope"></i>
-                        </div>
-                        <span class="project-status featured-status">Featured</span>
-                    </div>
-                    <div class="project-content">
-                        <h3>🔬 Bangla Fake News Detection</h3>
-                        <p class="project-date"><i class="far fa-calendar"></i> Expected: 2026</p>
-                        <p class="project-description">Deep learning framework for detecting fake news in Bangla using semantic, stylometric, and relational features with explainable AI.</p>
-                        
-                        <h4>Key Achievements:</h4>
-                        <ul class="project-list">
-                            <li>Hierarchical attention fusion mechanism</li>
-                            <li>Graph Neural Networks implementation</li>
-                            <li>BERT embeddings integration</li>
-                            <li>Attention-based interpretability</li>
-                        </ul>
-                        
-                        <div class="tech-stack">
-                            <span class="tech">Python</span>
-                            <span class="tech">PyTorch</span>
-                            <span class="tech">Transformers</span>
-                            <span class="tech">GNN</span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/almamud740" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                            <a href="#contact" class="project-link">
-                                <i class="fas fa-info-circle"></i> Learn More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2: FlexFlow -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-briefcase"></i>
-                        </div>
-                        <span class="project-status">In Progress</span>
-                    </div>
-                    <div class="project-content">
-                        <h3>💼 FlexFlow Platform</h3>
-                        <p class="project-date"><i class="far fa-calendar"></i> 2024 - Present</p>
-                        <p class="project-description">Full-stack freelancer-employer marketplace with AI-powered job matching and performance incentives.</p>
-                        
-                        <h4>Features:</h4>
-                        <ul class="project-list">
-                            <li>Gamified performance system</li>
-                            <li>Smart job recommendations</li>
-                            <li>Real-time notifications</li>
-                            <li>Role-based access control</li>
-                        </ul>
-                        
-                        <div class="tech-stack">
-                            <span class="tech">PHP</span>
-                            <span class="tech">MySQL</span>
-                            <span class="tech">HTML5/CSS3</span>
-                            <span class="tech">REST API</span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/almamud740" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> View Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3: Data Communication -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-wifi"></i>
-                        </div>
-                        <span class="project-status">Completed</span>
-                    </div>
-                    <div class="project-content">
-                        <h3>⚡ Network Protocol Implementation</h3>
-                        <p class="project-date"><i class="far fa-calendar"></i> June 2024</p>
-                        <p class="project-description">Socket programming & networking concepts through live coding implementation.</p>
-                        
-                        <h4>Components:</h4>
-                        <ul class="project-list">
-                            <li>Socket programming</li>
-                            <li>Client-server architecture</li>
-                            <li>Protocol implementation</li>
-                            <li>Data transmission</li>
-                        </ul>
-                        
-                        <div class="tech-stack">
-                            <span class="tech">C/C++</span>
-                            <span class="tech">Networking</span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/almamud740" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Repository
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 4: Scheduler -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon">
-                            <i class="fas fa-tasks"></i>
-                        </div>
-                        <span class="project-status">Completed</span>
-                    </div>
-                    <div class="project-content">
-                        <h3>🎯 CPU Scheduler Simulator</h3>
-                        <p class="project-date"><i class="far fa-calendar"></i> December 2024</p>
-                        <p class="project-description">Comparative analysis of CPU scheduling algorithms with performance metrics.</p>
-                        
-                        <h4>Algorithms:</h4>
-                        <ul class="project-list">
-                            <li>FCFS scheduling</li>
-                            <li>SJF implementation</li>
-                            <li>Round Robin</li>
-                            <li>Performance analysis</li>
-                        </ul>
-                        
-                        <div class="tech-stack">
-                            <span class="tech">C++</span>
-                            <span class="tech">Algorithms</span>
-                        </div>
-                        
-                        <div class="project-links">
-                            <a href="https://github.com/almamud740" target="_blank" class="project-link">
-                                <i class="fab fa-github"></i> Repository
-                            </a>
-                        </div>
+                    <div class="skill-list">
+                        <span class="skill-badge">Git/GitHub</span>
+                        <span class="skill-badge">VS Code</span>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">Linux</span>
+                        <span class="skill-badge">MySQL Workbench</span>
                     </div>
                 </div>
             </div>
@@ -460,86 +258,47 @@
     <!-- Education Section -->
     <section id="education" class="education">
         <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">04</span>
-                Education & Achievements
-            </h2>
-            <div class="section-divider"></div>
-            
-            <div class="education-grid">
-                <!-- Timeline -->
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h3>BS in Computer Science & Engineering</h3>
-                            <p class="timeline-institution">Green University of Bangladesh</p>
-                            <p class="timeline-date">2022 - Present</p>
-                            <p class="timeline-details">CGPA: <strong>3.78/4.00</strong></p>
-                            <p class="timeline-description">Advanced coursework in Data Structures, Machine Learning, Database Systems, and Web Development.</p>
-                        </div>
-                    </div>
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="underline"></div>
+            </div>
 
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-book"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h3>Research Thesis</h3>
-                            <p class="timeline-institution">Bangla Fake News Detection</p>
-                            <p class="timeline-date">Expected: 2026</p>
-                            <p class="timeline-details">Supervisor: MS Babe Sadona</p>
-                            <p class="timeline-description">Deep learning research with focus on explainable AI and NLP.</p>
-                        </div>
+            <div class="education-items">
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h4>BS Computer Science & Engineering</h4>
+                        <span class="edu-year">2022 - Present</span>
                     </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h3>HSC (Higher Secondary)</h3>
-                            <p class="timeline-institution">Ullapara Science College</p>
-                            <p class="timeline-date">2019</p>
-                            <p class="timeline-details">GPA: <strong>5.00/5.00</strong></p>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-marker">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="timeline-content">
-                            <h3>SSC (Secondary)</h3>
-                            <p class="timeline-institution">Ullapara Adarsha High School</p>
-                            <p class="timeline-date">2017</p>
-                            <p class="timeline-details">GPA: <strong>5.00/5.00</strong></p>
-                        </div>
-                    </div>
+                    <p class="edu-institute">Green University of Bangladesh</p>
+                    <p class="edu-details">CGPA: 3.78/4.00 | Thesis: Bangla Fake News Detection</p>
                 </div>
 
-                <!-- Certifications & Awards -->
-                <div class="achievements-sidebar">
-                    <div class="achievement-block">
-                        <h4><i class="fas fa-medal"></i> Awards</h4>
-                        <ul class="achievement-list">
-                            <li><span class="year">2022</span> Vice-Chancellor Award</li>
-                            <li><span class="year">2024</span> Dean's Award (3x)</li>
-                            <li><span class="year">2026</span> Academic Excellence</li>
-                        </ul>
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h4>Higher Secondary Certificate (HSC)</h4>
+                        <span class="edu-year">2019</span>
                     </div>
-
-                    <div class="achievement-block">
-                        <h4><i class="fas fa-certificate"></i> Certifications</h4>
-                        <ul class="achievement-list">
-                            <li><span class="year">2025</span> ML Bootcamp - Bootstein</li>
-                            <li><span class="year">2026</span> AR/VR Internship</li>
-                            <li><span class="year">2024</span> Full-Stack Development</li>
-                        </ul>
-                    </div>
+                    <p class="edu-institute">Ullapara Science College</p>
+                    <p class="edu-details">GPA: 5.00/5.00</p>
                 </div>
+
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h4>Secondary School Certificate (SSC)</h4>
+                        <span class="edu-year">2017</span>
+                    </div>
+                    <p class="edu-institute">Ullapara Adarsha High School</p>
+                    <p class="edu-details">GPA: 5.00/5.00</p>
+                </div>
+            </div>
+
+            <div class="awards">
+                <h4>Awards & Recognition</h4>
+                <ul>
+                    <li><i class="fas fa-trophy"></i> Dean's Award - Green University (3x)</li>
+                    <li><i class="fas fa-trophy"></i> Vice-Chancellor Award (2022)</li>
+                    <li><i class="fas fa-trophy"></i> Academic Excellence Recognition</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -547,96 +306,67 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">
-                <span class="section-number">05</span>
-                Get In Touch
-            </h2>
-            <div class="section-divider"></div>
-            
-            <p class="contact-intro">I'm always open to new opportunities, collaborations, and interesting conversations.</p>
-            
-            <div class="contact-content">
-                <div class="contact-info-grid">
-                    <div class="contact-info-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <h4>Email</h4>
-                        <p><a href="mailto:almamud.tech@gmail.com">almamud.tech@gmail.com</a></p>
-                        <p class="contact-desc">Best for detailed inquiries</p>
-                    </div>
-                    
-                    <div class="contact-info-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <h4>Phone</h4>
-                        <p><a href="tel:+8801755575606">+880-1755575606</a></p>
-                        <p class="contact-desc">Available on WhatsApp</p>
-                    </div>
-                    
-                    <div class="contact-info-card">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <h4>Location</h4>
-                        <p>Rupganj, Narayanganj</p>
-                        <p class="contact-desc">Bangladesh</p>
-                    </div>
-                </div>
-
-                <div class="contact-form-wrapper">
-                    <h3>Send me a message</h3>
-                    <form id="contactForm" action="https://formspree.io/f/mqenkjyj" method="POST" class="contact-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name">Your Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Doe" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Your Email</label>
-                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Project Opportunity" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." rows="6" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-large">
-                            <i class="fas fa-paper-plane"></i> Send Message
-                        </button>
-                    </form>
-                    <div id="successMessage" class="success-message" style="display:none;">
-                        <i class="fas fa-check-circle"></i>
-                        <h4>Message Sent Successfully!</h4>
-                        <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
-                    </div>
-                </div>
+            <div class="section-header">
+                <h2>Let's Work Together</h2>
+                <div class="underline"></div>
             </div>
 
-            <div class="social-section">
-                <h3>Connect With Me</h3>
-                <div class="social-icons-large">
-                    <a href="https://github.com/almamud740" target="_blank" class="social-icon-large" title="GitHub">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub</span>
-                    </a>
-                    <a href="https://linkedin.com/in/md-al-mamud-168650361" target="_blank" class="social-icon-large" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="mailto:almamud.tech@gmail.com" class="social-icon-large" title="Email">
-                        <i class="fas fa-envelope"></i>
-                        <span>Email</span>
-                    </a>
-                    <a href="https://twitter.com" target="_blank" class="social-icon-large" title="Twitter">
-                        <i class="fab fa-twitter"></i>
-                        <span>Twitter</span>
-                    </a>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm open to new opportunities and collaborations. Let's create something amazing.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:almamud.tech@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>almamud.tech@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+8801755575606" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>+880-1755575606</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/almamud740" class="contact-method" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h5>GitHub</h5>
+                                <p>almamud740</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/md-al-mamud-168650361" class="contact-method" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h5>LinkedIn</h5>
+                                <p>Connect with me</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mqenkjyj" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                </form>
+
+                <div id="successMessage" class="success-message" style="display:none;">
+                    <i class="fas fa-check"></i>
+                    <h4>Thank You!</h4>
+                    <p>Your message has been sent. I'll get back to you soon.</p>
                 </div>
             </div>
         </div>
@@ -646,31 +376,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                <p>&copy; 2026 Md. Al Mamud. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/almamud740" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/md-al-mamud-168650361" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:almamud.tech@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="https://github.com/almamud740" target="_blank">GitHub</a></li>
-                        <li><a href="https://linkedin.com/in/md-al-mamud-168650361" target="_blank">LinkedIn</a></li>
-                        <li><a href="assets/cv/Md_Al_Mamud_CV.pdf" download>Download CV</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Latest</h4>
-                    <p>Thesis: Bangla Fake News Detection (2026)</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 MD. AL MAMUD | Full Stack Developer & ML Researcher</p>
-                <p>Built with <span class="heart">❤️</span> using HTML, CSS, JavaScript</p>
             </div>
         </div>
     </footer>
